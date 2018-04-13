@@ -1,0 +1,20 @@
+import java.util.Set;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
+public class UnpredictablePopup {
+
+	public static void main(String[] args) {
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://qtpselenium.com/test/unpredictable.php");
+		Set<String> winIds = driver.getWindowHandles();
+		//1 - main windiw
+		System.out.println("Total windows "+winIds);
+		
+
+	}
+
+}

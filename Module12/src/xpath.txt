@@ -1,0 +1,83 @@
+xpath - address of element
+
+Absolute/Complete -  very accurate
+html/body/div/div[1]/div[1]/a/img
+
+
+
+Partial Xpath
+//
+//* -  all elements on the web page
+//a -  all links on the web page
+//*[@id='exampleInputEmail3']
+//*[@id='login1']
+//input[@id='login1']
+//*[@id="login1"]
+//*[@id="login1"]
+
+
+html/body/div[5]/div[2]/div[2]/div[2]/a[3]
+html/body/div[4]/div/div[1]/div[2]
+//*[@id='nav']/div[2]/div[2]/a[3]
+html/body/div/div[1]/div[1]/a/img
+
+//*[@id="intl_homepage1-zone-1"]/div[2]/div/div[1]/ul/li[1]/article/a/h2
+
+
+
+
+Customized xpath
+
+
+Can 1 element have multiple xpaths
+//input[@id='login1']
+//input[@name='login']
+//input[@name='login' and @id='login1']
+//input[@name='login' or @id='login1']
+//div[@class='login-form']/div[2]/input
+
+
+html/body/div/div[1]/div[1]/a/img
+//div[@class='floatL']/a/img
+
+html/body/div/div[2]/div[2]/div[1]/div/form/div/div[3]/div[2]/a
+//div[@class='floatR']/a
+//div[@class='f14 margTop10 form-label']/div[2]/a
+
+
+Can 2 elements have same xpath
+//a
+//*
+//div[@class='floatR']/a
+
+//*[@id="div_bdeal_scroller"]/div[1]/div/div/a/span
+//*[@id="div_bdeal_scroller"]/div[2]/div/div/a/span
+//span[@class='product_buynow']
+
+//a[text()='Books']
+//div[text()='Secured Login']
+
+
+yui_3_18_0_3_1515920586500_1069
+yui_3_18_0_3_1515920654231_102
+
+Constant7125387618263891
+1725378128381263Constant
+17263576125Constant127635761235
+7162535127357125375123517
+
+//a[starts-with(@id,'Constant')]
+//a[contains(@id,'Constant')]
+
+//span[starts-with(@id,'topcat')]
+
+
+
+
+
+
+
+
+
+
+

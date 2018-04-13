@@ -1,0 +1,10 @@
+package execute;
+
+public class Parallel_Exec {
+
+	public static void main(String[] args) {
+		System.out.println("x");
+
+	}
+
+}

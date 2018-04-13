@@ -1,0 +1,10 @@
+package execute;
+
+public class Parallel {
+
+	public static void main(String[] args) {
+		// write code to invoke suites parallel
+
+	}
+
+}

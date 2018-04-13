@@ -1,0 +1,53 @@
+
+ #- refers to id
+ .- refers to class
+ #login1
+ input[id=login1]
+ input[id=login1][name=login1]
+ 
+ Username-
+ div[class=login-form]
+ .login-form
+ .login-form>div
+ .login-form>div:nth-child(1)
+ .login-form>:nth-child(1)
+ .login-form>:nth-child(2)
+ .login-form>:nth-child(2)>input
+ .login-form>:nth-child(2)>#login1
+ div[class=login-form] > div:nth-child(2) > input
+ div[class=login-form]>:nth-child(2)>input
+ div[class=login-form] > div:nth-child(2) > #login1
+ 
+ shopping
+ #homewrapper > div.icondiv > a:nth-child(6) > div > u
+ div[class=divicon relative]
+.divicon.relative
+.divcon
+.divicon.relative>u
+
+News
+#hm_top_navlink_div>div:nth-child(1)
+#hm_top_navlink_div>div:nth-child(1) 
+#hm_top_navlink_div>a:nth-child(3)>div
+#hm_top_navlink_div>:nth-child(3)>div
+
+ forgot password - 
+.floatR>a   - 2
+.f14.margTop10.form-label>div:nth-child(2)>a
+.f14.margTop10.form-label>:nth-child(2)>a
+.f14.margTop10.form-label>:nth-child(2)>:nth-child(1)
+body > div > div.content-area > div.rhs-area.floatR > div.login-area-free.floatR > div > form > div > div.f14.margTop10.form-label > div.floatR > a
+
+Home-
+div[class=head-wrapper]>div:nth-child(2)>a-  home
+.head-wrapper>.floatR>a - home
+body > div > div.head-wrapper > div.floatR > a
+
+
+ rediff shopping
+ ^- starts with
+ *- contains
+ $- ends with
+ span[id^=topcat]
+ yahoo 
+ 

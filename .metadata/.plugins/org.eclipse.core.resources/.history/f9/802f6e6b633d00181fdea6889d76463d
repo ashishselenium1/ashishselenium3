@@ -1,0 +1,12 @@
+package testcasesA;
+
+public class TestA1 {
+
+	
+	@Test
+	public void testA1() {
+		System.out.println("Starting A1");
+		Thread.sleep(5000);
+		System.out.println("Ending A1");
+	}
+}

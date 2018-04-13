@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Suite">
+<test name="Test A1">
+    <classes>
+        <class name="suiteA.TestA1" ></class>  
+    </classes>
+</test>
+
+<test name="Portfolio Test">
+    <classes>
+        <class name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest" ></class>  
+    </classes>
+</test>
+
+</suite>

@@ -1,0 +1,18 @@
+1516426679011	geckodriver	INFO	geckodriver 0.19.1
+1516426679018	geckodriver	INFO	Listening on 127.0.0.1:10332
+1516426679915	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.VhbeLVS0OwH3"
+1516426680977	Marionette	INFO	Enabled via --marionette
+[Child 4036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1516426684311	Marionette	INFO	Listening on port 49433
+1516426685171	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516426685257	Marionette	DEBUG	Register listener.js for window 4294967297
+1516426685337	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516426686361	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516426686361	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516426688121	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1516426688813	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.naukri.com/"
+1516426692734	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.naukri.com/"
+1516426692759	Marionette	DEBUG	Register listener.js for window 4294967304
+1516426692812	Marionette	DEBUG	Register listener.js for window 4294967308
+1516426692855	Marionette	DEBUG	Register listener.js for window 4294967311
