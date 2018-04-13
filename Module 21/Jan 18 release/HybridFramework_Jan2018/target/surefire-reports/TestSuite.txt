@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 68.214 sec <<< FAILURE!
+loginTest(com.qtpselenium.hybrid.suitea.LoginTest)  Time elapsed: 60.392 sec  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.qtpselenium.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:46)
+	at com.qtpselenium.hybrid.suitea.LoginTest.loginTest(LoginTest.java:33)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	Titles did not match. Got title as Zoho - Cloud Software Suite and SaaS Applications for Businesses	Titles did not match. Got title as Zoho - Cloud Software Suite and SaaS Applications for Businesses, 
+	Element not found signinLink_xpath	Element not found signinLink_xpath
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:48)
+	at com.qtpselenium.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:199)
+	at com.qtpselenium.hybrid.keywords.GenericKeywords.validateElementPresent(GenericKeywords.java:132)
+	... 26 more
+

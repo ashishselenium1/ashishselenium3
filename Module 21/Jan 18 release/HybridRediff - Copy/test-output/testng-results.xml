@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1461" started-at="2018-03-22T14:04:14Z" finished-at="2018-03-22T14:04:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1461" started-at="2018-03-22T14:04:14Z" finished-at="2018-03-22T14:04:15Z">
+      <class name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@197d671]" name="init" is-config="true" duration-ms="759" started-at="2018-03-22T19:34:14Z" finished-at="2018-03-22T19:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="createPortFolioTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@197d671]" name="createPortFolioTest" duration-ms="0" started-at="2018-03-22T19:34:15Z" data-provider="getData" finished-at="2018-03-22T19:34:15Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Some DataProvider public java.lang.Object[][] com.qtpselenium.rediff.hybrid.base.BaseTest.getData(org.testng.ITestClass) parameters unresolved:  at 1 type interface org.testng.ITestClass
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Some DataProvider public java.lang.Object[][] com.qtpselenium.rediff.hybrid.base.BaseTest.getData(org.testng.ITestClass) parameters unresolved:  at 1 type interface org.testng.ITestClass
+
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:128)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortFolioTest -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@197d671]" name="initTest" is-config="true" duration-ms="212" started-at="2018-03-22T19:34:15Z" finished-at="2018-03-22T19:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="deletePortFolioTest()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@197d671]" name="deletePortFolioTest" duration-ms="2" started-at="2018-03-22T19:34:15Z" finished-at="2018-03-22T19:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortFolioTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@197d671]" name="quit" is-config="true" duration-ms="459" started-at="2018-03-22T19:34:15Z" finished-at="2018-03-22T19:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

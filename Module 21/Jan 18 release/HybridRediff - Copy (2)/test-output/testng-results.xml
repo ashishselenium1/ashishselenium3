@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="126751" started-at="2018-03-25T07:38:10Z" finished-at="2018-03-25T07:40:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="126751" started-at="2018-03-25T07:38:10Z" finished-at="2018-03-25T07:40:16Z">
+      <class name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="init" is-config="true" duration-ms="728" started-at="2018-03-25T13:08:10Z" finished-at="2018-03-25T13:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="initTest" is-config="true" duration-ms="189" started-at="2018-03-25T13:08:10Z" finished-at="2018-03-25T13:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="createPortFolioTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="createPortFolioTest" duration-ms="18" started-at="2018-03-25T13:08:11Z" data-provider="getData" finished-at="2018-03-25T13:08:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortfolioName=SamplePort1, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode is set to NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode is set to NO
+	at com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortFolioTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="quit" is-config="true" duration-ms="396" started-at="2018-03-25T13:08:11Z" finished-at="2018-03-25T13:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="createPortFolioTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="createPortFolioTest" duration-ms="2" started-at="2018-03-25T13:08:11Z" data-provider="getData" finished-at="2018-03-25T13:08:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortfolioName=SamplePort2, Runmode=Y, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode is set to NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode is set to NO
+	at com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortFolioTest -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="initTest" is-config="true" duration-ms="0" started-at="2018-03-25T13:08:11Z" finished-at="2018-03-25T13:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="quit" is-config="true" duration-ms="84" started-at="2018-03-25T13:08:11Z" finished-at="2018-03-25T13:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="initTest" is-config="true" duration-ms="0" started-at="2018-03-25T13:08:11Z" finished-at="2018-03-25T13:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="deletePortFolioTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="deletePortFolioTest" duration-ms="63226" started-at="2018-03-25T13:08:11Z" data-provider="getData" finished-at="2018-03-25T13:09:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortfolioName=123, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortFolioTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="quit" is-config="true" duration-ms="75" started-at="2018-03-25T13:09:14Z" finished-at="2018-03-25T13:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="deletePortFolioTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="deletePortFolioTest" duration-ms="61926" started-at="2018-03-25T13:09:14Z" data-provider="getData" finished-at="2018-03-25T13:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortfolioName=61Port, Runmode=Y, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortFolioTest -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="initTest" is-config="true" duration-ms="0" started-at="2018-03-25T13:09:14Z" finished-at="2018-03-25T13:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest@3f0ee7cb]" name="quit" is-config="true" duration-ms="76" started-at="2018-03-25T13:10:16Z" finished-at="2018-03-25T13:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
